@@ -4,7 +4,6 @@ Requiremnets
 
 
 - i3-gaps 
-- polybar 
-- pywal 
+- polybar
 - zsh
 - kitty
