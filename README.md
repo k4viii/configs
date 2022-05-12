@@ -7,3 +7,5 @@ Requiremnets
 - polybar
 - zsh
 - kitty
+- Fira Code Retina
+- Fonts Awesome
