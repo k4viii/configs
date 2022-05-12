@@ -1,0 +1,33 @@
+require 'nvim-tree'.setup {
+  auto_open = true,
+  auto_close = true,
+  gitignore = 1
+  auto_reload_on_write = true,
+  disable_netrw = false,
+  hide_root_folder = false,
+  hijack_cursor = false,
+  hijack_netrw = true,
+  hijack_unnamed_buffer_when_opening = false,
+  ignore_buffer_on_setup = false,
+  open_on_setup = false,
+  open_on_tab = false,
+  sort_by = "name",
+  update_cwd = false,
+    view = {
+    width = 30,
+    height = 30,
+    side = "left",
+    preserve_window_proportions = false,
+    number = false,
+    relativenumber = false,
+    signcolumn = "yes",
+    mappings = {
+      custom_only = false,
+      list = {
+        -- user mappings go here
+      },
+    },
+  },
+}
+vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
+
